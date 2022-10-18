@@ -4,7 +4,7 @@ import '../css/home.css'
 function Home() {
   return (
     <>
-    <div className="home-page">
+    <div id='Home' className="home-page">
       <div className="text-box">
         <p>Hello,</p>
         <h2>I Am Jitendra Kumar</h2>

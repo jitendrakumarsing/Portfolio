@@ -1,7 +1,7 @@
 .education-page {
     position:relative;
-    /* height:87vh; */
-    z-index: -2;
+    padding-top: 50px;
+    
 }
 .education-page h2 {
     text-align: center;
@@ -18,8 +18,8 @@
     background-size: cover;
     height:100%;
     width: 100vw;
-    opacity: 0.2;
-    z-index: -2;
+    opacity: 0.1;
+   
 }
 
 /* ------education side section------ */

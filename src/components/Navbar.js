@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState,useEffect} from 'react';
 import '../css/navbar.css'
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import '../fontawesome/css/all.css';
 
 
@@ -38,10 +38,10 @@ list.style.display = list.style.display !== 'grid' ? 'grid' : 'none';
     <span className="logo">Jitendra Kumar</span>
     
     <ul id='list-items' className={smallscreen?'smalldevices':'nav-links'}>
-    <li><Link className="link" to="/Home"  >Home</Link></li>
-    <li><Link  className="link" to="/Work">Work</Link></li>
-    <li><Link className="link" to="/Education">Education</Link></li>
-    <li><Link className="link" to="/About">About</Link></li>
+    <li><a className="link" href="/#Home"  >Home</a></li>
+    <li><a  className="link" href="#Work">Work</a></li>
+    <li><a className="link" href="#Education">Education</a></li>
+    <li><a className="link" href="#About">About</a></li>
     </ul>
     <span className='iconbtn' style={smallscreen ? { display:'block'} : {display : 'none'} }>
          <i className="fa-solid fa-bars" onClick={handleclick} ></i></span>

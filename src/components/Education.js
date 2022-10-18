@@ -3,7 +3,7 @@ import '../css/education.css';
 
 function Education() {
   return (
-   <div className="education-page">
+   <div id='Education' className="education-page">
     <h2 className='page-text' >EDUCATION & SKILLS</h2>
     <div className="pagebody">
       <div className="skills">

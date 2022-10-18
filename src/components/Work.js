@@ -24,7 +24,7 @@ function Work(props) {
  
   return (
     <>
-      <div className=" work-page">
+      <div id='Work' className=" work-page">
         <h3 className='page-text' >GITHUB REPOSITORY</h3>
         <div className="card-list">
         {repository.map((element) => {
