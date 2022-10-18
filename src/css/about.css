@@ -1,0 +1,66 @@
+.about-page{
+    position: relative;
+    width: 100vw;
+    padding-bottom: 25px;
+    font-family: 'Montserrat', sans-serif; 
+    background-color:rgba(95, 158, 160, 0.175);
+}
+
+.about-page h2{
+text-align: center;
+padding-top: 25px;
+}
+.aboutbody{
+    display: flex;
+   flex-wrap: wrap-reverse;
+   margin-top: 50px; 
+}
+.innerbody h3{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.innerbody{
+    width: 400px;
+    margin:10px auto;
+    list-style: none;
+}
+.innerbody ul{
+    padding:25px 0px 0px 0px;    
+}
+.innerbody ul li{
+    padding: 5px 0px;
+    list-style: none;
+}
+
+/* -------footer ------ */
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    color: #222;
+    background: #0c0c0c22; 
+}
+.footer ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.link-icons li{
+    list-style: none;
+    margin: 10px;
+}
+.link-icons li i{
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 50%;
+    color:black
+}
+.link-icons li i:hover{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.426);
+}

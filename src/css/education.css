@@ -1,0 +1,87 @@
+.education-page {
+    position:relative;
+    /* height:87vh; */
+    z-index: -2;
+}
+.education-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.education-page::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('../images/ebg.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:100%;
+    width: 100vw;
+    opacity: 0.2;
+    z-index: -2;
+}
+
+/* ------education side section------ */
+.edu h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skills,
+.edu {
+    width: 400px;
+    margin: 10px auto 0px auto;
+}
+
+.pagebody {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.edu p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.edu span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* -----skills side section----- */
+.skills>* {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.skills h4 {
+    margin-bottom: 10px;
+}
+
+.skills ul li span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 15px 0px 0px;
+    padding-left: 0px;
+}
+
+.skills i {
+    font-size: 2.5rem;
+}
+
+.fa-html5 {
+    color: #F06529;
+}
+
+.fa-css3-alt {
+    color: #264de4;
+}
+
+.fa-square-js {
+    color: rgb(228, 228, 5);
+}
+
+.fa-react {
+    color: #61DBFB;
+}
