@@ -6,9 +6,9 @@ import Workitems from './Workitems';
 function Work(props) {
   let { username } = props;
   const [repository, setrepository] = useState([]);
-//   const capitalizeFirstLetter = (string) => {
-//     return string.charAt(0).toUpperCase() + string.slice(1);
-// }
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
   const getrepo = async () => {
     let response = await fetch(`https://api.github.com/users/${username}/repos`);
@@ -28,8 +28,8 @@ function Work(props) {
         <h3 className='page-text' >GITHUB REPOSITORY</h3>
         <div className="card-list">
         {repository.map((element) => {
-          return <div className='card' key={element.id}>
-            <Workitems Name={element.name} Description={element.description} Url={element.html_url} sitename={element.name} username={username} date={element.pushed_at} />
+          return element.name !== 'Portfolio' && <div className='card' key={element.id}>
+            <Workitems Name={capitalizeFirstLetter(element.name)} Description={capitalizeFirstLetter(element.description)} Url={element.html_url} sitename={element.name} username={username} date={element.pushed_at} />
           </div>
         })}
       </div>
