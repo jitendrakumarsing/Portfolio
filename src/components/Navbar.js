@@ -36,7 +36,7 @@ let nochange=()=>{}
     <span className="logo">Jitendra Kumar</span>
     
     <ul id='list-items' className={smallscreen?'smalldevices':'nav-links'} onClick={smallscreen?handleclick:nochange}>
-    <li><a className="link" href="/#Home">Home</a></li>
+    <li><a className="link" href="#Home">Home</a></li>
     <li><a  className="link" href="#Work">Work</a></li>
     <li><a className="link" href="#Education">Education</a></li>
     <li><a className="link" href="#About">About</a></li>
