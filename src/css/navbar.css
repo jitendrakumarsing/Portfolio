@@ -6,13 +6,13 @@
 }
 
 .navbar {
-    position: sticky;
-    top: 0.01px;
+    position:fixed;
+    top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 13vh;
+    height: 10vh;
     width: 100vw;
     background-color: black;
     font-family: 'Roboto', sans-serif;

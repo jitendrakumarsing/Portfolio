@@ -12,7 +12,6 @@ const [width, setwidth] = useState(window.innerWidth);
 
 function handlewidthchange() {
     setwidth(window.innerWidth);
-    window.location.reload();
 }
 useEffect(()=>{
     window.addEventListener('resize',handlewidthchange);
